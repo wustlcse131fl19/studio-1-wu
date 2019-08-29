@@ -21,6 +21,8 @@ public class HiOne {
 		//
 		// Below this line, enter code so that this program's output says
 		//      Hi, Pat.  How are you?
+
+		System.out.print("Hi Doug, How are you?");
 		// if the value of name is "Pat"
 		//
 

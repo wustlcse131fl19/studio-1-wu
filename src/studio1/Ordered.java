@@ -12,7 +12,13 @@ public class Ordered {
 		int x = ap.nextInt("Value for x?");
 		int y = ap.nextInt("Value for y?");
 		int z = ap.nextInt("Value for z?");
-
+		String isOrdered = "true";
+		if (((x<y) && (y<z))||((x>y)&&(y>z))){
+			System.out.print(isOrdered);
+		}
+		else{
+			System.out.print("false");
+		}
 	}
 
 }
